@@ -403,7 +403,17 @@
                 {
                     Console.WriteLine(s.PrintShipmentDetails());
                 }
-            }   
+            }
+        }
+    }
+    #endregion
+
+    #region Delivery Helper Class
+    public static class DeliveryHelper 
+    { 
+    public static void PrintShipmentDetails(Shipment shipment)
+        {
+            shipment.PrintShipmentDetails();
         }
     }
     #endregion
