@@ -397,14 +397,13 @@
         //Print all shipments method
         public void PrintAllShipments()
         {
-            for (int i = 0; i < shipment.Length; i++)
+            foreach(Shipment s in shipment)
             {
-
-                if (shipment[i] != null)
+                if (s != null)
                 {
-                    Console.WriteLine(shipment[i].PrintShipmentDetails());
+                    Console.WriteLine(s.PrintShipmentDetails());
                 }
-            }
+            }   
         }
     }
     #endregion
