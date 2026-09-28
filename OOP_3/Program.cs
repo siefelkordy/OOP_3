@@ -5,7 +5,7 @@
     //Question1:
     //a) Method Overloading happens in the static polymorphism while Method Overriding happens in the dynamic polymorphism
     //Method overloading is to have multiple methods with the same name but different parameters number or types if you want to overload a method in the child class you have to use the new keyword
-    //Method overriding is to have the parent class allow the child class to modify its method using volatile/abstract keyword and use override keyword in the child class to modify the method
+    //Method overriding is to have the parent class allow the child class to modify its method using virtual keyword and use override keyword in the child class to modify the method
     //In main,Compiler choose the method dependent on the refernce type in the method overloading
     //In main,Compiler choose the method dependent on the least dervied class type in the method overriding
     //b)
