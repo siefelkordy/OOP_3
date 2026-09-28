@@ -1,21 +1,19 @@
 ﻿namespace OOP_3
 {
-   
-        //Part1: Theoritical
-        //Question1:
-        //a)Class is a reference type while struct is a value type
-        //Class is stored in heap while struct is stored in stack
-        //Class support Inheritance while struct doesn't
-        //Class provides parameterless constructor if none defined while struct always provide it
-        //Class can be null while struct can't
-        //Class is best for complex data with behaviour,inheritance,shared state while struct is best for small,simple data,better performance
-        //b)Classes work best for large applications as they avoid unecessary copying,work better with shared objects
-        //Question2:
-        //a)Shipment
-        //b)ExpressShipment
-        //c)Shipment members which is a property here(TrackingCode)
-        //d)Saving code memory
-        public struct DeliveryAddress
+    #region Part1: Theoritical Questions
+    //Part1: Theoritical
+    //Question1:
+    //a) Method Overloading happens in the static polymorphism while Method Overriding happens in the dynamic polymorphism
+    //Method overloading is to have multiple methods with the same name but different parameters number or types if you want to overload a method in the child class you have to use the new keyword
+    //Method overriding is to have the parent class allow the child class to modify its method using volatile/abstract keyword and use override keyword in the child class to modify the method
+    //In main,Compiler choose the method dependent on the refernce type in the method overloading
+    //In main,Compiler choose the method dependent on the least dervied class type in the method overriding
+    //b)
+    //Question2:
+    //a)
+    //b)
+    #endregion
+    public struct DeliveryAddress
         {
             string City;
             string Street;
